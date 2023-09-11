@@ -278,10 +278,10 @@ Vue.component('create-form', {
     template: `
     <form class="create-form" @submit.prevent="onSubmit">
         <label>Создать заметику</label>
-        <input v-model="title" type="text" placeholder="title">
-        <input v-model="taskTitle1" type="text" placeholder="task - 1">
-        <input v-model="taskTitle2" type="text" placeholder="task - 2">
-        <input v-model="taskTitle3" type="text" placeholder="task - 3">
+        <input v-model="title" type="text" placeholder="Название">
+        <input v-model="taskTitle1" type="text" placeholder="Заметка 1">
+        <input v-model="taskTitle2" type="text" placeholder="Заметка 2">
+        <input v-model="taskTitle3" type="text" placeholder="Заметка 3">
         <input type="submit" value="Создать">
     </form>
     `,
